@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class UserController {
-@GetMapping("/hello")
+@GetMapping("/")
 public String index() {
 	System.out.println("before index");
-	return "index";
+	return "index.html";
 }
 
 }
